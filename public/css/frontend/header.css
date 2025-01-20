@@ -1,0 +1,71 @@
+.header {
+    height: max-content;
+}
+
+.header_container {
+    background-color: rgb(255, 255, 255);
+}
+
+.header_content {
+    padding: 0 15px;
+}
+
+.header_data {
+    padding: 10px;
+}
+
+.header_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_links ul,
+.header_middle_links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_links ul a,
+.header_middle_links ul a {
+    padding: 0 8px;
+}
+
+.header_links ul a li,
+.header_middle_links ul a li {
+    font-size: 1.2rem;
+}
+
+.header_links ul a li {
+    background-color: rgb(47, 72, 141);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.header_middle_links ul a li {
+    color: rgb(145, 145, 145);
+    transition: all ease .6s;
+}
+
+.header_middle_links ul a:hover li {
+    color: rgb(26, 28, 145);
+    transition: all ease .6s;
+}
+
+.header_middle_links ul a li span {
+    transition: all ease .6s;
+    color: rgb(72, 97, 134);
+    padding-right: 5px;
+}
+
+.header_middle_links ul a:hover li span {
+    transition: all ease .6s;
+    color: rgb(26, 28, 145);
+    padding-right: 5px;
+}
+
+.header_logo img {
+    width: 80px;
+}

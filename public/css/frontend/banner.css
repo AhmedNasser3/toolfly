@@ -1,0 +1,85 @@
+.banner {
+    background: linear-gradient(to right, rgb(98, 71, 161), rgb(46, 63, 155));
+    min-height: 50vh;
+}
+
+.banner_container {
+    padding: 5% 5%;
+}
+
+.banner_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner_text {
+    direction: rtl;
+}
+
+.banner_btn {
+    padding: 15px 0 0 0;
+}
+
+.banner_text h2 {
+    color: white;
+    font-size: 2.1rem;
+}
+
+.banner_text h3 {
+    color: rgb(202, 202, 202);
+    font-size: 1.3rem;
+    padding: 15px 0;
+}
+
+.banner_btn button {
+    padding: 10px 20px;
+    background-color: #1a2270;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    transition: ease all .6s;
+}
+
+.banner_btn button:hover {
+    transition: ease all .6s;
+    background-color: #ffffff;
+}
+
+.banner_btn button a {
+    transition: ease all .6s;
+    color: white;
+}
+
+.banner_btn button:hover a {
+    transition: ease all .6s;
+    color: #1a2270;
+}
+
+.banner_btn button:hover a span {
+    transition: ease all .6s;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(17, 18, 94));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner_btn button a span {
+    transition: ease all .6s;
+    background: linear-gradient(to right, rgb(141, 142, 228), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero_title h2 {
+    color: #1a2270;
+    font-size: 2.4rem;
+}
+
+.hero_title h2 span {
+    color: #ffae00;
+}
+
+.hero_title h3 {
+    font-size: 1.6rem;
+    color: #5b5f85;
+}

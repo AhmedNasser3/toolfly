@@ -1,0 +1,20 @@
+/* hero */
+
+.hero {
+    min-height: 50vh;
+}
+
+.hero_container {
+    padding: 5% 0 0 0;
+}
+
+.hero_content {
+    padding: 0 10%;
+}
+
+.hero_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

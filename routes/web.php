@@ -16,3 +16,6 @@ Route::middleware([
 });
 Route::get('/authstore',[AuthController::class, 'storeAuth'])->name('storeAuth');
 Route::get('/authstore/callback',[AuthController::class, 'callback'])->name('callback');
+Route::get('/store/message', [AuthController::class, 'showMessage'])->name('store.message');
+Route::get('/stores/orders', [AuthController::class, 'getOrders']);
+// Route::get('stores/access-token', [AuthController::class, 'getStoreAccessToken']);
